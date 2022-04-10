@@ -14,6 +14,14 @@
 		D6B03BF727FDC6A6001E4DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B03BF627FDC6A6001E4DEC /* Assets.xcassets */; };
 		D6B03BFA27FDC6A6001E4DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B03BF827FDC6A6001E4DEC /* LaunchScreen.storyboard */; };
 		D6B03BFD27FDC6A6001E4DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B03BFC27FDC6A6001E4DEC /* main.m */; };
+		D6B03C0627FDCD38001E4DEC /* MusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B03C0427FDCD38001E4DEC /* MusicPlayerViewController.m */; };
+		D6B03C0727FDCD38001E4DEC /* MusicPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6B03C0527FDCD38001E4DEC /* MusicPlayerViewController.xib */; };
+		D6B03C0D28006DFF001E4DEC /* 想見你想見你想見你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B03C0828006DFE001E4DEC /* 想見你想見你想見你.mp3 */; };
+		D6B03C0E28006DFF001E4DEC /* 如果可以.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B03C0928006DFE001E4DEC /* 如果可以.mp3 */; };
+		D6B03C0F28006DFF001E4DEC /* 備胎.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B03C0A28006DFE001E4DEC /* 備胎.mp3 */; };
+		D6B03C1028006DFF001E4DEC /* 如果能幸福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B03C0B28006DFE001E4DEC /* 如果能幸福.mp3 */; };
+		D6B03C1128006DFF001E4DEC /* 好愛好散.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6B03C0C28006DFF001E4DEC /* 好愛好散.mp3 */; };
+		D6B03C1428007061001E4DEC /* MusicInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B03C1328007061001E4DEC /* MusicInfoTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,16 @@
 		D6B03BF927FDC6A6001E4DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B03BFB27FDC6A6001E4DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6B03BFC27FDC6A6001E4DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6B03C0327FDCD38001E4DEC /* MusicPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicPlayerViewController.h; sourceTree = "<group>"; };
+		D6B03C0427FDCD38001E4DEC /* MusicPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicPlayerViewController.m; sourceTree = "<group>"; };
+		D6B03C0527FDCD38001E4DEC /* MusicPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicPlayerViewController.xib; sourceTree = "<group>"; };
+		D6B03C0828006DFE001E4DEC /* 想見你想見你想見你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "想見你想見你想見你.mp3"; sourceTree = "<group>"; };
+		D6B03C0928006DFE001E4DEC /* 如果可以.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "如果可以.mp3"; sourceTree = "<group>"; };
+		D6B03C0A28006DFE001E4DEC /* 備胎.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "備胎.mp3"; sourceTree = "<group>"; };
+		D6B03C0B28006DFE001E4DEC /* 如果能幸福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "如果能幸福.mp3"; sourceTree = "<group>"; };
+		D6B03C0C28006DFF001E4DEC /* 好愛好散.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "好愛好散.mp3"; sourceTree = "<group>"; };
+		D6B03C1228007061001E4DEC /* MusicInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicInfoTableViewCell.h; sourceTree = "<group>"; };
+		D6B03C1328007061001E4DEC /* MusicInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicInfoTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +85,21 @@
 				D6B03BEE27FDC6A2001E4DEC /* SceneDelegate.m */,
 				D6B03BF027FDC6A2001E4DEC /* ViewController.h */,
 				D6B03BF127FDC6A2001E4DEC /* ViewController.m */,
+				D6B03C1228007061001E4DEC /* MusicInfoTableViewCell.h */,
+				D6B03C1328007061001E4DEC /* MusicInfoTableViewCell.m */,
+				D6B03C0327FDCD38001E4DEC /* MusicPlayerViewController.h */,
+				D6B03C0427FDCD38001E4DEC /* MusicPlayerViewController.m */,
+				D6B03C0527FDCD38001E4DEC /* MusicPlayerViewController.xib */,
 				D6B03BF327FDC6A2001E4DEC /* Main.storyboard */,
 				D6B03BF627FDC6A6001E4DEC /* Assets.xcassets */,
 				D6B03BF827FDC6A6001E4DEC /* LaunchScreen.storyboard */,
 				D6B03BFB27FDC6A6001E4DEC /* Info.plist */,
 				D6B03BFC27FDC6A6001E4DEC /* main.m */,
+				D6B03C0A28006DFE001E4DEC /* 備胎.mp3 */,
+				D6B03C0C28006DFF001E4DEC /* 好愛好散.mp3 */,
+				D6B03C0928006DFE001E4DEC /* 如果可以.mp3 */,
+				D6B03C0B28006DFE001E4DEC /* 如果能幸福.mp3 */,
+				D6B03C0828006DFE001E4DEC /* 想見你想見你想見你.mp3 */,
 			);
 			path = MusicPlayer_OC;
 			sourceTree = "<group>";
@@ -133,9 +161,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6B03C0E28006DFF001E4DEC /* 如果可以.mp3 in Resources */,
+				D6B03C1028006DFF001E4DEC /* 如果能幸福.mp3 in Resources */,
+				D6B03C0F28006DFF001E4DEC /* 備胎.mp3 in Resources */,
 				D6B03BFA27FDC6A6001E4DEC /* LaunchScreen.storyboard in Resources */,
+				D6B03C0D28006DFF001E4DEC /* 想見你想見你想見你.mp3 in Resources */,
 				D6B03BF727FDC6A6001E4DEC /* Assets.xcassets in Resources */,
+				D6B03C1128006DFF001E4DEC /* 好愛好散.mp3 in Resources */,
 				D6B03BF527FDC6A2001E4DEC /* Main.storyboard in Resources */,
+				D6B03C0727FDCD38001E4DEC /* MusicPlayerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +181,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6B03BF227FDC6A2001E4DEC /* ViewController.m in Sources */,
+				D6B03C0627FDCD38001E4DEC /* MusicPlayerViewController.m in Sources */,
 				D6B03BEC27FDC6A2001E4DEC /* AppDelegate.m in Sources */,
+				D6B03C1428007061001E4DEC /* MusicInfoTableViewCell.m in Sources */,
 				D6B03BFD27FDC6A6001E4DEC /* main.m in Sources */,
 				D6B03BEF27FDC6A2001E4DEC /* SceneDelegate.m in Sources */,
 			);
